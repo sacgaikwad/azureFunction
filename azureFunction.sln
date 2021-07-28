@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azureFunction", "azureFunction\azureFunction.csproj", "{8EF7A059-562D-4CFE-BA59-B234799D54C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunction", "DurableFunction\DurableFunction.csproj", "{A6E124C6-7C05-4A21-893C-A94BF8555DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF7A059-562D-4CFE-BA59-B234799D54C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF7A059-562D-4CFE-BA59-B234799D54C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF7A059-562D-4CFE-BA59-B234799D54C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF7A059-562D-4CFE-BA59-B234799D54C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E124C6-7C05-4A21-893C-A94BF8555DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E124C6-7C05-4A21-893C-A94BF8555DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E124C6-7C05-4A21-893C-A94BF8555DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E124C6-7C05-4A21-893C-A94BF8555DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7548318E-F428-4CCF-84F8-6611F38DECC0}
+	EndGlobalSection
+EndGlobal
