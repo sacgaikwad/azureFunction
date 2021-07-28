@@ -23,7 +23,9 @@ namespace SqlFunction
 
             try
             {
-                using (SqlConnection connection = new SqlConnection("Server=tcp:azuretutorialdemo.database.windows.net,1433;Initial Catalog=azuretutorial;Persist Security Info=False;User ID=azuredemo;Password=sachin123!@#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
+                string connectionString = Environment.GetEnvironmentVariable("SQLAZURESQLCONNSTR_DbConnection");
+                //"Server=tcp:azuretutorialdemo.database.windows.net,1433;Initial Catalog=azuretutorial;Persist Security Info=False;User ID=azuredemo;Password=sachin123!@#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+                using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     String sql = "SELECT CourseId,CourseName,Rating FROM [dbo].[Course]";
                     using (SqlCommand command = new SqlCommand(sql, connection))
