@@ -23,7 +23,7 @@ namespace SqlFunction
 
             try
             {
-                string connectionString = Environment.GetEnvironmentVariable("SQLAZURESQLCONNSTR_DbConnection");
+                string connectionString = Environment.GetEnvironmentVariable("SQLAZURECONNSTR_DbConnection");
                 //"Server=tcp:azuretutorialdemo.database.windows.net,1433;Initial Catalog=azuretutorial;Persist Security Info=False;User ID=azuredemo;Password=sachin123!@#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
